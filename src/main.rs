@@ -1,20 +1,27 @@
 fn main() {
-    let a = 2;
-    let result = stack_only(a);
-    dbg!(result);
+    println!("This is a {} {} {}", "Rust","Macro","Test")
 }
 
-fn stack_only(b: i32) -> i32 {
-    let c = 3;
-    return b + c + stack_and_heap();
-}
 
-fn stack_and_heap() -> i32 {
-    let d = 5;
+// fn main() {
+//     let a = 2;
+//     let result = stack_only(a);
+//     dbg!(result);
+// }
+
+// fn stack_only(b: i32) -> i32 {
+//     let c = 3;
+//     return b + c + stack_and_heap();
+// }
+
+// fn stack_and_heap() -> i32 {
+//     let d = 5;
     
-    // Box is a type of smart pointer in Rust
-    let e = Box::new(7);
+//     // Box is a type of smart pointer in Rust
+//     let e = Box::new(7);
 
-    // * is used when returning a Box value
-    return d + *e;
-}
+//     // * is used when returning a Box value
+//     return d + *e;
+// }
+
+
